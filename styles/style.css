@@ -1,3 +1,14 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+/* .container-fluid{
+    height: 7.5em;
+} */
+
+#logo{
+    max-height: 4em;
+    margin-left: 3em;
+}
+.nav-link{
+    color: #FF0000;
+}
