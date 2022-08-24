@@ -36,14 +36,8 @@ i:hover{
 .video{
     max-width: 800px;
     margin:0 auto;
-    /* justify-content: center;
-    position: relative;    */
 }
-/* .contenedor-video{
-    max-width: 800px;
-    margin:0 auto; */
 
-}
 
 
 @media (max-width: 767.98px) { 
