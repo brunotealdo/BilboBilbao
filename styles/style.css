@@ -1,15 +1,10 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-/* .container-fluid{
-    height: 7.5em;
-} */
-
 #logo{
     max-height: 4em;
     margin-left: 3em;
 }
-
 .nav-link{
     color: #FF0000;
 }
@@ -19,3 +14,45 @@ footer{
 .card{
     border: none;
 }
+.redes-footer{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.link-footer{
+    color: black;
+}
+.link-footer:hover{
+    color:#ff00007d ;
+}
+i{
+    font-style: normal;
+}
+i:hover{
+    color: #ff00007d;
+}
+.foot-mobile-logo{
+    justify-content: end;
+}
+.video{
+    max-width: 800px;
+    margin:0 auto;
+    /* justify-content: center;
+    position: relative;    */
+}
+/* .contenedor-video{
+    max-width: 800px;
+    margin:0 auto; */
+
+}
+
+
+@media (max-width: 767.98px) { 
+    .foot-mobile{
+        display: flex;
+        justify-content: center;
+    }
+    .foot-mobile-logo{
+        justify-content: center;
+    }
+ }
+ 
