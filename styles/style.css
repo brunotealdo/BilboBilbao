@@ -37,7 +37,16 @@ i:hover{
     max-width: 800px;
     margin:0 auto;
 }
-
+.contenido-main{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.justificar{
+    text-align: justify;
+}
+.contenedor-carrusel{
+    max-width: 800px;
+}
 
 
 @media (max-width: 767.98px) { 
