@@ -9,7 +9,8 @@ body {
   color: #FF0000; }
 
 footer {
-  background-color: #7C7C7C; }
+  background: red;
+  background: linear-gradient(356deg, rgba(255, 0, 0, 0.552556) 0%, rgba(0, 150, 70, 0.460119) 39%, rgba(245, 253, 255, 0) 69%); }
 
 .card {
   border: none; }
@@ -20,15 +21,13 @@ footer {
 
 .link-footer {
   color: black; }
-
-.link-footer:hover {
-  color: #ff00007d; }
+  .link-footer:hover {
+    color: #ff00007d; }
 
 i {
   font-style: normal; }
-
-i:hover {
-  color: #ff00007d; }
+  i:hover {
+    color: #ff00007d; }
 
 .foot-mobile-logo {
   justify-content: end; }
@@ -46,6 +45,11 @@ i:hover {
 
 .contenedor-carrusel {
   max-width: 800px; }
+
+.tarjeta-home {
+  transition: box-shadow 0.5s ease; }
+  .tarjeta-home:hover {
+    box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.8); }
 
 @media (max-width: 767.98px) {
   .foot-mobile {
