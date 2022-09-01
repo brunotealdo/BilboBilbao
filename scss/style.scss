@@ -1,58 +1,10 @@
+@import './variables';
+@import './header';
+@import './main';
+@import './footer';
+
 body{
     font-family: 'Montserrat', sans-serif;
-}
-#logo{
-    max-height: 4em;
-    margin-left: 3em;
-}
-.nav-link{
-    color: #FF0000;
-}
-footer{
-    background: rgb(255,0,0);
-    background: linear-gradient(356deg, rgba(255,0,0,0.5525560566023284) 0%, rgba(0,150,70,0.46011908181241246) 39%, rgba(245,253,255,0) 69%);
-}
-.card{
-    border: none;
-}
-.redes-footer{
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-}
-.link-footer{
-    color: black;
-        &:hover{
-            color:#ff00007d ;
-        }
-}
-i{
-    font-style: normal;
-        &:hover{
-            color: #ff00007d;
-        }
-}
-.foot-mobile-logo{
-    justify-content: end;
-}
-.video{
-    max-width: 800px;
-    margin:0 auto;
-}
-.contenido-main{
-    max-width: 90%;
-    margin: 0 auto;
-}
-.justificar{
-    text-align: justify;
-}
-.contenedor-carrusel{
-    max-width: 800px;
-}
-.tarjeta-home{
-    transition: box-shadow 0.5s ease;
-    &:hover{
-        box-shadow: 0 0.1rem 2rem rgba(0,0,0,0.8);
-    }
 }
 
 

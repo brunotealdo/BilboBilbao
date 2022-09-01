@@ -1,0 +1,23 @@
+.card{
+    border: none;
+}
+.video{
+    max-width: 800px;
+    margin:0 auto;
+}
+.contenido-main{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.justificar{
+    text-align: justify;
+}
+.contenedor-carrusel{
+    max-width: 800px;
+}
+.tarjeta-home{
+    transition: box-shadow 0.5s ease;
+    &:hover{
+        box-shadow: 0 0.1rem 2rem rgba(0,0,0,0.8);
+    }
+}

@@ -1,0 +1,23 @@
+footer{
+    background: rgb(255,0,0);
+    background: linear-gradient(356deg, rgba(255,0,0,0.5525560566023284) 0%, rgba(0,150,70,0.46011908181241246) 39%, rgba(245,253,255,0) 69%);
+}
+.redes-footer{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.link-footer{
+    color: black;
+        &:hover{
+            color:$hover-footer;
+        }
+}
+i{
+    font-style: normal;
+        &:hover{
+            color: $hover-footer;
+        }
+}
+.foot-mobile-logo{
+    justify-content: end;
+}
