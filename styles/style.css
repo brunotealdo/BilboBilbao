@@ -36,14 +36,25 @@ footer {
   color: black; }
 
 .link-footer {
-  color: black; }
+  color: black;
+  cursor: pointer; }
   .link-footer:hover {
     color: #ff00007d; }
 
-i {
+.bi-twitter {
   font-style: normal; }
-  i:hover {
-    color: #ff00007d; }
+  .bi-twitter:hover {
+    color: #1DA1F2; }
+
+.bi-facebook {
+  font-style: normal; }
+  .bi-facebook:hover {
+    color: #033b7a; }
+
+.bi-instagram {
+  font-style: normal; }
+  .bi-instagram:hover {
+    color: #A93891; }
 
 .foot-mobile-logo {
   justify-content: end; }

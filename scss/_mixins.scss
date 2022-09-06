@@ -1,0 +1,6 @@
+@mixin social ($hover) {
+    font-style: normal; 
+    &:hover {
+            color: $hover;
+        }
+}

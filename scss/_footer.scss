@@ -8,16 +8,23 @@ footer{
 }
 .link-footer{
     color: black;
+    cursor: pointer;
         &:hover{
             color:$hover-footer;
+            
         }
 }
-i{
-    font-style: normal;
-        &:hover{
-            color: $hover-footer;
+
+    .bi-twitter{
+        @include social ($tw)
         }
-}
+    .bi-facebook{
+        @include social ($fb)
+    }
+    .bi-instagram{
+        @include social ($ig)
+    }
+
 .foot-mobile-logo{
     justify-content: end;
 }
