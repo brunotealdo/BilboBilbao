@@ -21,5 +21,22 @@ body{
     .foot-mobile-logo{
         justify-content: center;
     }
- }
+}
+@media (max-width: 575.98px) {
+    .banner{
+        display: none;
+    }
+    .banner-mobile{
+        display: block;
+    }
+}
+@media (min-width: 575.98px) {
+    .banner{
+        display: block;
+    }
+    .banner-mobile{
+        display: none;
+    }
+}
+
  
