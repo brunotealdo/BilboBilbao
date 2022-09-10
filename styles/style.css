@@ -16,6 +16,13 @@
   max-width: 90%;
   margin: 0 auto; }
 
+.contenido-cultura {
+  max-width: 1140px;
+  margin: 0 auto; }
+  .contenido-cultura .texto {
+    width: 90%;
+    margin: 0 auto; }
+
 .justificar {
   text-align: justify; }
 
