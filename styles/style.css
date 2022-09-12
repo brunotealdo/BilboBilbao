@@ -29,12 +29,12 @@
 .contenedor-carrusel {
   max-width: 800px; }
 
-.tarjeta-home, .card-ciudad {
+.tarjeta-home, .card-ciudad, .card-escapadas {
   transition: box-shadow 0.5s ease; }
-  .tarjeta-home:hover, .card-ciudad:hover {
+  .tarjeta-home:hover, .card-ciudad:hover, .card-escapadas:hover {
     box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.8); }
 
-.card-ciudad {
+.card-ciudad, .card-escapadas {
   border: 0.5px solid rgba(128, 128, 128, 0.278);
   background-color: #eae7e7; }
 
