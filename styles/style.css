@@ -73,6 +73,13 @@ footer {
 body {
   font-family: 'Montserrat', sans-serif; }
 
+.titulo-card {
+  color: aliceblue;
+  font-size: 1.5em;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.482); }
+
 @media (max-width: 767.98px) {
   .foot-mobile {
     display: flex;
