@@ -2,20 +2,30 @@
     border: none;
 }
 .video{
-    max-width: 800px;
+    max-width: 50rem;
     margin:0 auto;
 }
 .contenido-main{
     max-width: 90%;
     margin: 0 auto;
+    .titulo{
+        color: #FF1616;
+    }
+    .texto-main{
+        max-width: 80%;
+            
+    }
 }
 .contenido-cultura{
-    max-width: 1140px;
+    max-width: 71.25rem;
     margin: 0 auto;
-        .texto{
-            width: 90%;
-            margin: 0 auto;
-        }
+    .titulo{
+        color: #FF1616;
+    }
+    .texto{
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 .justificar{
     text-align: justify;

@@ -9,16 +9,22 @@
   border: none; }
 
 .video {
-  max-width: 800px;
+  max-width: 50rem;
   margin: 0 auto; }
 
 .contenido-main {
   max-width: 90%;
   margin: 0 auto; }
+  .contenido-main .titulo {
+    color: #FF1616; }
+  .contenido-main .texto-main {
+    max-width: 80%; }
 
 .contenido-cultura {
-  max-width: 1140px;
+  max-width: 71.25rem;
   margin: 0 auto; }
+  .contenido-cultura .titulo {
+    color: #FF1616; }
   .contenido-cultura .texto {
     width: 90%;
     margin: 0 auto; }
@@ -79,6 +85,9 @@ body {
   border: 2px solid black;
   border-radius: 0.5rem;
   background-color: rgba(0, 0, 0, 0.482); }
+
+iframe {
+  border-radius: 1em; }
 
 @media (max-width: 767.98px) {
   .foot-mobile {
