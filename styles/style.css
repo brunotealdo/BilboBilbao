@@ -82,7 +82,6 @@ body {
 .titulo-card {
   color: aliceblue;
   font-size: 1.5em;
-  border: 2px solid black;
   border-radius: 0.5rem;
   background-color: rgba(0, 0, 0, 0.482); }
 
@@ -94,7 +93,15 @@ iframe {
     display: flex;
     justify-content: center; }
   .foot-mobile-logo {
-    justify-content: center; } }
+    justify-content: center; }
+  .contenido-main {
+    max-width: 95%; }
+    .contenido-main .texto-main {
+      max-width: 100%; }
+      .contenido-main .texto-main p {
+        font-size: 1em; }
+  iframe {
+    border-radius: 0; } }
 
 @media (max-width: 575.98px) {
   .banner {
