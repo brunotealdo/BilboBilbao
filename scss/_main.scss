@@ -47,3 +47,12 @@
 .card-escapadas{
     @extend .card-ciudad;
 }
+.titulo-card{
+    color: aliceblue;
+    font-size: 1.5em;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.482);
+}
+iframe{
+    border-radius: 1em;
+}

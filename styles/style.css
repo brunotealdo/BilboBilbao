@@ -44,6 +44,15 @@
   border: 0.5px solid rgba(128, 128, 128, 0.278);
   background-color: #eae7e7; }
 
+.titulo-card {
+  color: aliceblue;
+  font-size: 1.5em;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.482); }
+
+iframe {
+  border-radius: 1em; }
+
 footer {
   background: red;
   background: linear-gradient(356deg, rgba(255, 0, 0, 0.552556) 0%, rgba(0, 150, 70, 0.460119) 39%, rgba(245, 253, 255, 0) 69%); }
@@ -76,23 +85,11 @@ footer {
 .foot-mobile-logo {
   justify-content: end; }
 
+footer li {
+  margin-bottom: 5px; }
+
 body {
   font-family: 'Montserrat', sans-serif; }
-
-.titulo-card {
-  color: aliceblue;
-  font-size: 1.5em;
-  border-radius: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.482); }
-
-iframe {
-  border-radius: 1em; }
-
-.foot-mobile ul li {
-  margin-bottom: 5px; }
-
-.rrss ul li {
-  margin-bottom: 5px; }
 
 @media (max-width: 767.98px) {
   .foot-mobile {

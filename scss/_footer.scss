@@ -14,17 +14,18 @@ footer{
             
         }
 }
-
-    .bi-twitter{
-        @include social ($tw)
-        }
-    .bi-facebook{
-        @include social ($fb)
-    }
-    .bi-instagram{
-        @include social ($ig)
-    }
-
+.bi-twitter{
+    @include social ($tw)
+}
+.bi-facebook{
+    @include social ($fb)
+}
+.bi-instagram{
+    @include social ($ig)
+}
 .foot-mobile-logo{
     justify-content: end;
+}
+footer li{
+    margin-bottom: 5px;
 }
