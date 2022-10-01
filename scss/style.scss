@@ -9,7 +9,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
+@media (max-width: 991.98px) {
+    .formulario{
+        overflow: hidden;
+    }
+}
 
 @media (max-width: 767.98px) { 
     .foot-mobile{
@@ -28,6 +32,7 @@ body{
             }       
         }
     }
+    
     iframe{
         border-radius: 0;
     }
@@ -39,9 +44,7 @@ body{
     .banner-mobile{
         display: block;
     }
-    .formulario{
-        overflow: hidden;
-    }
+    
 }
 @media (min-width: 575.98px) {
     .banner{
