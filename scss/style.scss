@@ -11,9 +11,6 @@ body{
 }
 
 
-
-
-
 @media (max-width: 767.98px) { 
     .foot-mobile{
         display: flex;
@@ -42,7 +39,9 @@ body{
     .banner-mobile{
         display: block;
     }
-    
+    .formulario{
+        overflow: hidden;
+    }
 }
 @media (min-width: 575.98px) {
     .banner{

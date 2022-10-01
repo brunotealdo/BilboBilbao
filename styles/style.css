@@ -110,7 +110,9 @@ body {
   .banner {
     display: none; }
   .banner-mobile {
-    display: block; } }
+    display: block; }
+  .formulario {
+    overflow: hidden; } }
 
 @media (min-width: 575.98px) {
   .banner {
